@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3e7ebe"
+    tools:context="com.example.hectorvera.twofragmentpractice.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Numero"
+        android:id="@+id/eNumero"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/communicate"
+        android:id="@+id/myB"/>
+
+</LinearLayout>
